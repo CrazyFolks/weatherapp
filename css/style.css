@@ -1,0 +1,42 @@
+body {
+	background:#cecece;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background:#c2c2c2;
+	overflow: hidden;
+}
+/*#logo {
+	width: 320px;
+}*/
+
+#logo, .menu {
+	float: left;
+}
+
+#logo img {
+	width: 80px;
+}
+
+.pretraga {
+	clear: both;
+}
+
+.menu ul li {
+	list-style-type: none;
+	float: left;
+	margin-right: 5px;
+}
+
+#splash {
+	background:#000;
+	position: absolute;
+	z-index: 99999;
+
+}
+
+.rezultati {
+	display: none;
+}

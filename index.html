@@ -2,9 +2,55 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Weather app</title>
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
-<body>
-	
+<body >
+
+	<!-- App ICON - https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7E_69oYrQv5iTk5h5VwdyEbv6c-rZO40IcTRkrWnn_-V08pu1yQ -->
+	<div class="header">
+		<div id="logo">
+			<img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7E_69oYrQv5iTk5h5VwdyEbv6c-rZO40IcTRkrWnn_-V08pu1yQ" alt="">
+		</div>
+
+		<div class="menu">
+			<ul>
+				<li>O nama</li>
+				<li>Prognoza</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="pretraga">
+		<form action="">
+			<p>
+				<select id="grad">
+					<option value="">Izaberi grad</option>
+					<option value="Belgrade">Belgrade</option>
+					<option value="London">London</option>
+					<option value="Paris">Paris</option>
+					<option value="New York">New York</option>
+				</select>
+			</p>
+		</form>
+	</div>
+
+
+		<div class="rezultati">
+			<p id="city"></p>
+			<p><span>Temp:</span> <span id="temp"></span></p>
+			
+			<p><span id="vreme"></span></p>
+
+			<p><span>Max:</span> <span id="max"></span></p>
+
+			<p><span>Min:</span> <span id="min"></span></p>
+
+		</div>
+
 </body>
 </html>
