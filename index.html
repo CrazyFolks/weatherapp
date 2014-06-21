@@ -3,14 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+
+	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 
+	<!-- Google Font -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+
+	<!-- Google jQuery -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+	<!-- Main jQuery -->
 	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body >
-
+	
 	<!-- App ICON - https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT7E_69oYrQv5iTk5h5VwdyEbv6c-rZO40IcTRkrWnn_-V08pu1yQ -->
 	<div class="header">
 		<div id="logo">
@@ -20,29 +27,27 @@
 		<div class="menu">
 			<ul>
 				<li>O nama</li>
-				<li>Prognoza</li>
 			</ul>
 		</div>
 	</div>
 
-	<div class="pretraga">
-		<form action="">
-			<p>
+	<div class="container">
+		<div class="pretraga">
+			<form action="">
 				<select id="grad">
-					<option value="">Izaberi grad</option>
+					<option value="" class="grad" >Izaberi grad</option>
 					<option value="Belgrade">Belgrade</option>
 					<option value="London">London</option>
 					<option value="Paris">Paris</option>
 					<option value="New York">New York</option>
 				</select>
-			</p>
-		</form>
-	</div>
+			</form>
+		</div>
 
 
 		<div class="rezultati">
-			<p id="city"></p>
-			<p><span>Temp:</span> <span id="temp"></span></p>
+			<!-- <h1 id="city"></h1> -->
+			<h2><span>Temp:</span> <span id="temp"></span></h2>
 			
 			<p><span id="vreme"></span></p>
 
@@ -51,6 +56,6 @@
 			<p><span>Min:</span> <span id="min"></span></p>
 
 		</div>
-
+	</div>
 </body>
 </html>

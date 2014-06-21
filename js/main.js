@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 	$('#grad').on('change', function(){
 	var grad = $(this).val();
-	$('.rezultati').show();
+	$('.rezultati').show(1000);
 	// console.log(grad);
 
 	var boba = url + grad;
